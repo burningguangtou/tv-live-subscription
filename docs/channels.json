@@ -40,6 +40,7 @@
     "uris": [
       "http://107.150.60.122/live/cctv5hd.m3u8",
       "http://gmxw.7766.org:808/hls/93/index.m3u8",
+      "http://t.061899.xyz/tl/tl.php?id=cctv5",
       "http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub"
     ]
   },
@@ -49,10 +50,11 @@
     "title": "CCTV-5+",
     "uris": [
       "http://107.150.60.122/live//cctv5p.m3u8",
-      "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "http://t.061899.xyz/tl/tl.php?id=cctv5p",
+      "http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv5p$IPV4•线路2",
       "http://120.76.248.139/live/bfgd/4200000246.m3u8",
       "http://47.100.80.251:50001/641886773",
-      "http://t.061899.xyz/tl/tl.php?id=cctv5p"
+      "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   },
   {
@@ -69,7 +71,8 @@
     "name": "CCTV-7",
     "title": "CCTV-7",
     "uris": [
-      "http://183.250.156.180:9999/newlive/live/hls/7/live.m3u8"
+      "http://183.250.156.180:9999/newlive/live/hls/7/live.m3u8",
+      "http://t.061899.xyz/tl/tl.php?id=cctv7"
     ]
   },
   {
@@ -377,9 +380,9 @@
     "title": "延边卫视",
     "uris": [
       "https://srs.iyb983.cn/video/CYS/index.m3u8",
+      "https://srs.iyb983.cn:443/video/CYS/index.m3u8",
       "http://120.76.248.139/live/bfgd/4200000117.m3u8",
       "http://120.76.248.139/live/bfgd/4200000117.m3u8$IPV4•线路2",
-      "https://srs.iyb983.cn:443/video/CYS/index.m3u8",
       "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#",
       "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8$IPV4•线路4"
     ]
