@@ -41,8 +41,8 @@
     "uris": [
       "http://107.150.60.122/live/cctv5hd.m3u8",
       "http://gmxw.7766.org:808/hls/93/index.m3u8",
-      "http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub",
-      "http://t.061899.xyz/tl/tl.php?id=cctv5"
+      "http://t.061899.xyz/tl/tl.php?id=cctv5",
+      "http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub"
     ]
   },
   {
@@ -64,8 +64,8 @@
     "title": "CCTV-6",
     "uris": [
       "http://69.30.245.50/live/cctv6.m3u8",
-      "http://198.204.240.250:82/live/cctv6.m3u8",
-      "http://t.061899.xyz/tl/tl.php?id=cctv6"
+      "http://t.061899.xyz/tl/tl.php?id=cctv6",
+      "http://198.204.240.250:82/live/cctv6.m3u8"
     ]
   },
   {
