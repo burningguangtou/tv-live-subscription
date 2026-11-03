@@ -50,10 +50,10 @@
     "title": "CCTV-5+",
     "uris": [
       "http://107.150.60.122/live//cctv5p.m3u8",
-      "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
-      "http://t.061899.xyz/tl/tl.php?id=cctv5p",
       "http://120.76.248.139/live/bfgd/4200000246.m3u8",
       "http://47.100.80.251:50001/641886773",
+      "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "http://t.061899.xyz/tl/tl.php?id=cctv5p",
       "http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv5p$IPV4•线路2"
     ]
   },
@@ -63,8 +63,8 @@
     "title": "CCTV-6",
     "uris": [
       "http://69.30.245.50/live/cctv6.m3u8",
-      "http://198.204.240.250:82/live/cctv6.m3u8",
-      "http://t.061899.xyz/tl/tl.php?id=cctv6"
+      "http://t.061899.xyz/tl/tl.php?id=cctv6",
+      "http://198.204.240.250:82/live/cctv6.m3u8"
     ]
   },
   {
@@ -92,11 +92,11 @@
     "title": "CCTV-9",
     "uris": [
       "https://xykt-fix.github.io/Y77.m3u8",
+      "http://t.061899.xyz/tl/tl.php?id=cctv9",
       "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=4efcff5be16d7673e080297ce1f50b27",
       "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=08e9e929c7755da5ea6eca2962cc9b8d",
       "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=aadb8c18051ee59eba868c6c6fda57a6",
-      "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=6eba369ff120b2ed6e1365d347cff21a",
-      "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=3a00fc0d3fc15e9259b00428ba25249c"
+      "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=6eba369ff120b2ed6e1365d347cff21a"
     ]
   },
   {
@@ -104,7 +104,8 @@
     "name": "CCTV-10",
     "title": "CCTV-10",
     "uris": [
-      "http://153.0.171.163:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0"
+      "http://153.0.171.163:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "http://t.061899.xyz/tl/tl.php?id=cctv10"
     ]
   },
   {
@@ -112,7 +113,8 @@
     "name": "CCTV-11",
     "title": "CCTV-11",
     "uris": [
-      "http://183.250.156.180:9999/newlive/live/hls/11/live.m3u8"
+      "http://183.250.156.180:9999/newlive/live/hls/11/live.m3u8",
+      "http://t.061899.xyz/tl/tl.php?id=cctv11"
     ]
   },
   {
@@ -362,8 +364,8 @@
     "name": "西藏卫视",
     "title": "西藏卫视",
     "uris": [
-      "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0",
-      "http://vpn.jk960.cn:8686/rtp/239.77.0.46:5146$IPV4•线路5"
+      "http://vpn.jk960.cn:8686/rtp/239.77.0.46:5146$IPV4•线路5",
+      "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   },
   {
