@@ -18,25 +18,25 @@ http://107.150.60.122/live/cctv5hd.m3u8
 #EXTINF:-1 group-title="央视",CCTV-5
 http://gmxw.7766.org:808/hls/93/index.m3u8
 #EXTINF:-1 group-title="央视",CCTV-5
-http://t.061899.xyz/tl/tl.php?id=cctv5
-#EXTINF:-1 group-title="央视",CCTV-5
 http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
+#EXTINF:-1 group-title="央视",CCTV-5
+http://t.061899.xyz/tl/tl.php?id=cctv5
 #EXTINF:-1 group-title="央视",CCTV-5+
 http://107.150.60.122/live//cctv5p.m3u8
+#EXTINF:-1 group-title="央视",CCTV-5+
+http://t.061899.xyz/tl/tl.php?id=cctv5p
+#EXTINF:-1 group-title="央视",CCTV-5+
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5p$IPV4•线路4
 #EXTINF:-1 group-title="央视",CCTV-5+
 http://120.76.248.139/live/bfgd/4200000246.m3u8
 #EXTINF:-1 group-title="央视",CCTV-5+
 http://47.100.80.251:50001/641886773
 #EXTINF:-1 group-title="央视",CCTV-5+
 http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV-5+
-http://t.061899.xyz/tl/tl.php?id=cctv5p
-#EXTINF:-1 group-title="央视",CCTV-5+
-http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv5p$IPV4•线路2
-#EXTINF:-1 group-title="央视",CCTV-6
-http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 group-title="央视",CCTV-6
 http://t.061899.xyz/tl/tl.php?id=cctv6
+#EXTINF:-1 group-title="央视",CCTV-6
+http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 group-title="央视",CCTV-6
 http://198.204.240.250:82/live/cctv6.m3u8
 #EXTINF:-1 group-title="央视",CCTV-7
@@ -96,11 +96,11 @@ http://120.198.95.220:9901/tsfile/live/1066_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="卫视",东方卫视
 https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:-1 group-title="卫视",东方卫视
+http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+#EXTINF:-1 group-title="卫视",东方卫视
 http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
 #EXTINF:-1 group-title="卫视",东方卫视
 http://120.198.95.220:9901/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&down=1
-#EXTINF:-1 group-title="卫视",东方卫视
-http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:-1 group-title="卫视",东南卫视
 http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 #EXTINF:-1 group-title="卫视",广东卫视
@@ -200,11 +200,11 @@ http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:800
 #EXTINF:-1 group-title="卫视",延边卫视
 https://srs.iyb983.cn/video/CYS/index.m3u8
 #EXTINF:-1 group-title="卫视",延边卫视
-https://srs.iyb983.cn:443/video/CYS/index.m3u8
-#EXTINF:-1 group-title="卫视",延边卫视
 http://120.76.248.139/live/bfgd/4200000117.m3u8
 #EXTINF:-1 group-title="卫视",延边卫视
 http://120.76.248.139/live/bfgd/4200000117.m3u8$IPV4•线路2
+#EXTINF:-1 group-title="卫视",延边卫视
+https://srs.iyb983.cn:443/video/CYS/index.m3u8
 #EXTINF:-1 group-title="卫视",延边卫视
 http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#
 #EXTINF:-1 group-title="卫视",延边卫视
