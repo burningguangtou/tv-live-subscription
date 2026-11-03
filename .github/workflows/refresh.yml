@@ -50,13 +50,31 @@ jobs:
       - name: Validate the snapshot before publishing
         run: >-
           node --input-type=module -e "import fs from 'node:fs'; import { validateOutput } from './src/merge.mjs'; const read = p => JSON.parse(fs.readFileSync(p, 'utf8')); validateOutput(read('docs/channels.json'), read('config/seed-channels.json'), read('config/sources.json')); console.log('Channel identities, protected regions, fallbacks and URL restrictions passed');"
+      - name: Generate M3U playlist from JSON
+        run: >-
+          node --input-type=module -e "
+            import fs from 'node:fs';
+            const data = JSON.parse(fs.readFileSync('docs/channels.json', 'utf8'));
+            let m3u = '#EXTM3U\n';
+            for (const group of (data.groups || data)) {
+              const groupName = group.name || '默认分组';
+              for (const channel of (group.channels || [])) {
+                const name = channel.name;
+                for (const url of (channel.urls || [])) {
+                  m3u += \`#EXTINF:-1 group-title=\"\${groupName}\",\${name}\n\${url}\n\`;
+                }
+              }
+            }
+            fs.writeFileSync('docs/tv.m3u', m3u, 'utf8');
+            console.log('Successfully generated docs/tv.m3u');
+          "
       - name: Preserve generated snapshot and daily report
         run: |
           git config user.name 'AlexF'
           git config user.email 'AlexF@local.com'
-          git add docs/channels.json docs/report.json
+          git add docs/channels.json docs/report.json docs/tv.m3u
           if ! git diff --cached --quiet; then
-            git commit -m '同步央视卫视线路以跟随上游变化并保留港台配置和失效回退'
+            git commit -m '同步央视卫视线路并自动生成兼容 TVBox 的 m3u 订阅文件'
             git push origin HEAD:main
           fi
       - name: Upload validated Pages content
