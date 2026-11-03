@@ -54,20 +54,16 @@ jobs:
         run: >-
           node --input-type=module -e "
             import fs from 'node:fs';
-            const raw = JSON.parse(fs.readFileSync('docs/channels.json', 'utf8'));
-            console.log('JSON structure keys:', Object.keys(raw));
+            const channels = JSON.parse(fs.readFileSync('docs/channels.json', 'utf8'));
+            console.log('Total channels loaded:', channels.length);
             let m3u = '#EXTM3U\n';
-            const items = Array.isArray(raw) ? raw : (raw.groups || raw.channels || Object.values(raw));
-            for (const group of items) {
-              const groupName = group.name || group.group || '默认分组';
-              const channels = group.channels || group.item || (Array.isArray(group) ? group : []);
-              for (const channel of channels) {
-                const name = channel.name || channel.title;
-                const urls = channel.urls || (channel.url ? [channel.url] : []);
-                for (const url of urls) {
-                  if (name && url) {
-                    m3u += \`#EXTINF:-1 group-title=\"\${groupName}\",\${name}\n\${url}\n\`;
-                  }
+            for (const ch of channels) {
+              const groupName = ch.group || '默认分组';
+              const name = ch.name || ch.title || '未知频道';
+              const uris = ch.uris || (ch.url ? [ch.url] : []);
+              for (const url of uris) {
+                if (url) {
+                  m3u += \`#EXTINF:-1 group-title=\"\${groupName}\",\${name}\n\${url}\n\`;
                 }
               }
             }
