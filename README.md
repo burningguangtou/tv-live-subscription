@@ -14,7 +14,7 @@
 
 人工换源需要同时更新 `config/seed-channels.json`、`config/sources.json`、`docs/channels.json` 和对应报告。为只发布已核验快照，可在提交消息中加入 `[skip ci]`，然后手动运行 `Refresh live subscription`，将 **refresh_sources** 设为 **false**：工作流仍运行测试及快照完整性检查，但跳过全表重新抓源。普通手动运行默认 true，定时任务和普通代码推送维持原来的自动更新行为。
 
-从三个公开 GitHub 源仓库提取指定央视、卫视频道，定时合并成 MYTV JSON。初始配置共 80 台：央视 17、卫视 26、香港 15、澳门 4、台湾 18。只有前两组线路自动更新，港澳台 37 项保持完整不变，频道顺序保持稳定。
+从三个公开 GitHub 源仓库提取指定央视、卫视频道，定时合并成 MYTV JSON。只有前两组线路自动更新，港澳台 37 项保持完整不变，频道顺序保持稳定。
 
 正式订阅地址为仓库 GitHub Pages 下的 `channels.json`；`report.json` 可查看最近成功时间、各上游是否可访问、每条检测结果及采用线路。初始 `docs/channels.json` 是人工核验的配置，首次运行更新后才会有自动探测报告。
 
@@ -34,7 +34,7 @@
 - [zilong7728/Collect-IPTV：优选列表](https://github.com/zilong7728/Collect-IPTV/blob/main/best_sorted.m3u)
 - [alantang1977/iptv_api：IPv4 多线路](https://github.com/alantang1977/iptv_api/blob/main/output/live_ipv4.m3u)
 
-来源和检测限制在 `config/sources.json`；人工保底与固定港澳台配置在 `config/seed-channels.json`。只包含公开直播地址及凤凰在播放器内的 `127.0.0.1` 动态入口，不需要账户凭证，也不需要电脑常开。
+来源和检测限制在 `config/sources.json`；人工保底与固定澳台配置在 `config/seed-channels.json`。只包含公开直播地址及凤凰在播放器内的 `127.0.0.1` 动态入口，不需要账户凭证，也不需要电脑常开。
 
 ## 部署与电视设置
 
